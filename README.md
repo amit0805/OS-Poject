@@ -53,9 +53,7 @@ PUBLIC int do_lottery()
  	return nTickets ? flag : OK;
  }
  
- /*===========================================================================*
-  *				set_priority				     *
-  *===========================================================================*/
+
  PUBLIC int set_priority(int ntickets, struct schedproc* p)
  {
  	int add;
